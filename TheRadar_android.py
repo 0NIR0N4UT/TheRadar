@@ -1,30 +1,30 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-print "\n******************************"
-print "*___    __  _  _  _  _  _    *"
-print "* | |_||_  |_)|_|| \|_||_)   *"
-print "* | | ||__ | \| ||_/| || \   *"
-print "*                            *"
-print "* TheRadar Ver. 0.99         *"
-print "* Coded by:                  *"
-print "* Dr. Adriano Casser         *"
-print "* Railroad University of     *"
-print "* Paranapiacaba              *"
-print "* adriano.casser@ufp.edu.com *"
-print "*                            *"
-print "******************************\n\n"
+print " \n******************************"
+print " *___    __  _  _  _  _  _    *"
+print " * | |_||_  |_)|_|| \|_||_)   *"
+print " * | | ||__ | \| ||_/| || \   *"
+print " *                            *"
+print " * TheRadar Ver. 0.99         *"
+print " * Coded by:                  *"
+print " * Dr. Adriano Casser         *"
+print " * Railroad University of     *"
+print " * Paranapiacaba              *"
+print " * adriano.casser@ufp.edu.com *"
+print " *                            *"
+print " ******************************\n\n"
 
 # 1 Configuração de Listas
-AnoA = ['2009: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
-AnoB = ['2010: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
-AnoC = ['2011: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
-AnoD = ['2012: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
-AnoE = ['2013: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
-AnoF = ['2014: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
-AnoG = ['2015: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
-AnoH = ['2016: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
-AnoI = ['2017: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoA = ['2009: Local: Vitimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoB = ['2010: Local: Vitimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoC = ['2011: Local: Vitimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoD = ['2012: Local: Vitimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoE = ['2013: Local: Vitimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoF = ['2014: Local: Vitimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoG = ['2015: Local: Vitimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoH = ['2016: Local: Vitimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoI = ['2017: Local: Vitimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
 
 # 2 Configuração do Menu
 def menu():
@@ -32,7 +32,7 @@ def menu():
     print("\t1 - Escanear")
     print("\t2 - Sobre")
     print("\t3 - Sair\n")
-    selection = int(input("Digite o número do menu que deseja acessar: "))
+    selection = int(input("Digite o numero do menu que deseja acessar: "))
     print ("\n")
 
     if selection == 1:
@@ -46,7 +46,7 @@ def menu():
     elif selection == 3:
         exit
     else:
-        print("Escolha inválida, tente novamente.\n")
+        print("Escolha incorreta, tente novamente.\n")
         menu()
 
 # 3 Configuração do Scan criada por Adriel Freud
@@ -123,7 +123,7 @@ def escanear():
         print(AnoI[0])
 
     else:
-        print("Escolha inválida, reinicie o programa.\n")
+        print("Escolha incorreta, reinicie o programa.\n")
         menu()
 
 def sobre():
