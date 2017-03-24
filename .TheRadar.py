@@ -9,15 +9,25 @@ print "*   | |  | '_ \ / _ \  _  // _` |/ _` |/ _` | '__|                *"
 print "*   | |  | | | |  __/ | \ \ (_| | (_| | (_| | |                   *"
 print "*   |_|  |_| |_|\___|_|  \_\__,_|\__,_|\__,_|_|                   *"
 print "*                                                                 *"
-print "* TheRadar Ver. 0.9                                               *"
-print "* Coded by Doctor Beakman                                         *"
+print "* TheRadar Ver. 0.99                                              *"
+print "* Coded by Doctor Adriano Casser                                  *"
 print "* Railroad University of Paranapiacaba                            *"
-print "* beakman@ufp.edu.com                                             *"
+print "* adriano.casser@ufp.edu.com                                      *"
 print "*                                                                 *"
 print "*******************************************************************\n"
 
-# 1 Configuração do Menu
-AnoA = ['2009: Local: Vítimas.\n']
+# 1 Configuração de Listas
+AnoA = ['2009: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoB = ['2010: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoC = ['2011: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoD = ['2012: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoE = ['2013: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoF = ['2014: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoG = ['2015: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoH = ['2016: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+AnoI = ['2017: Local: Vítimas.\n\n Obrigado pela consulta.\n\n END OF TRASMISSION']
+
+# 2 Configuração do Menu
 def menu():
     print("\tMENU\n")
     print("\t1 - Escanear")
@@ -40,11 +50,11 @@ def menu():
         print("Escolha inválida, tente novamente.\n")
         menu()
 
-# 2 Configuração do Scan criada por Adriel Freud
+# 3 Configuração do Scan criada por Adriel Freud
 def escanear():
     import time
 
-    raw_input("ENTER para confirmar o processo. ")
+    raw_input("AGUARDANDO RESPOSTA DO SERVIDOR\n\n\nENTER para confirmar o processo. ")
 
     print("\n\t1%")
     time.sleep(1)
@@ -64,7 +74,25 @@ def escanear():
     print("\t91%")
     print("\t100%\n\nPesquisa Concluida!\n")
     time.sleep(1)
-    print ("Processando dados por ano")
+    print ("         ``odNdyyydNMMMMm/     -:.    ..`     ..`")
+    print (" `     ./+osy/os.-//dMMMMMN-      .`     :.`.`-+symdo:-.`:.``")
+    print (" .hmdhysyhyssmNhNo+h/ `NMNy+:`     -ydds::/sssMNMMMMMMMMMmmNMNdysyy+.")
+    print (" .dmdhdNMMMMMMMo:`sy/  /s`  `-  ` +NsyMNmMMMMMMMMMMMMMMMMMMNmdhdhy/``")
+    print ("`.   -hMMMMMMms-NMmo`        `s.ohyNMMMMMMMMMMMMMMMMMMMMN+  :/")
+    print ("    `yMMMMMMMNMmo-.        `+mdmNMdydMyMMMMMMMMMMMMMMNd/`")
+    print ("      +NMMMMMMNs.           oho/--ssydMsNMMMMMMMMMMMh+/.:")
+    print ("       -hNMdso+`           -dNMMdyhyhMMMMmNMMMMMMMMMd ``")
+    print ("       `-ho:-```         .NMMMMMMMMNyMNh..oMd+oNMs:.")
+    print ("          .-/.:so-`      `hMMNMMMMMMmd/    s. `/o/ `.")
+    print ("             .NMMNd/.`    `--.oMMMMMNo`        -+.y:``.`")
+    print ("             .NMMMMMNd`       `hMMMMs           .--.``-+/`")
+    print ("              -dMMMMM/         yMMMm:+-            -yhdss`")
+    print ("               sMMMy.          -NMN: :            +NMMMMMh")
+    print ("               mMm/`            :+-               `+:./hm+   `.")
+    print ("               .M+`                                      .   `:`")
+    print ("              .h`\n")
+
+    print ("PROCESSANDO DADOS\n")
     time.sleep(1)
     print ("\tResultados:\n")
     print("\tA - 2009")
@@ -77,12 +105,28 @@ def escanear():
     print("\tH - 2016")
     print("\tI - 2017\n")
 
-# Segundo Menu
+# 4 Segundo Menu
     selection = int(input("Digite o ano que deseja acessar: "))
     print ("\n")
 
     if selection == 2009:
         print(AnoA[0])
+    elif selection == 2010:
+        print(AnoB[0])
+    elif selection == 2011:
+        print(AnoC[0])
+    elif selection == 2012:
+        print(AnoD[0])
+    elif selection == 2013:
+        print(AnoE[0])
+    elif selection == 2014:
+        print(AnoF[0])
+    elif selection == 2015:
+        print(AnoG[0])
+    elif selection == 2016:
+        print(AnoH[0])
+    elif selection == 2017:
+        print(AnoI[0])
 
     else:
         print("Escolha inválida, reinicie o programa.\n")
@@ -92,3 +136,6 @@ def sobre():
     print("Sobre: Este programa foi desenvolvido em python.\n")
 
 print menu()
+
+
+
